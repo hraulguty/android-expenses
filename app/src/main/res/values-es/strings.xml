@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mis Gastos</string>
+    <string name="action_settings">Configuración</string>
+    <string name="expenses_categories">Categorias</string>
+    <string name="expenses_date">Fecha</string>
+    <string name="expenses_description">Descripción</string>
+    <string name="expenses_earnings">Ganancias</string>
+    <string name="expenses_expenses">Gastos</string>
+    <string name="expenses_fullname">Nombre completo</string>
+    <string name="expenses_save">Guardar</string>
+    <string name="expenses_settings_title">Por favor llena los siguientes campos</string>
+    <string name="expenses_categorie">Categorie</string>
+</resources>

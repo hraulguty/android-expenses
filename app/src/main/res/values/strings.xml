@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Expenses</string>
+    <string name="action_settings">Settings</string>
+    <string name="expenses_date">Date</string>
+    <string name="expenses_description">Description</string>
+    <string name="expenses_categories">Categories</string>
+    <string name="expenses_categorie">Categorie</string>
+    <string name="expenses_earnings">Earnings</string>
+    <string name="expenses_expenses">Expenses</string>
+    <string name="expenses_fullname">Fullname</string>
+    <string name="expenses_save">Save</string>
+    <string name="expenses_total" translatable="false">Total</string>
+    <string name="title_activity_expenses_settings" translatable="false">ExpensesSettings</string>
+    <string name="expenses_settings_title">Please fill the next fields</string>
+</resources>

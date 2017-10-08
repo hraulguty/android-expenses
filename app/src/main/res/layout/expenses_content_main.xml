@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="guty.raul.myexpenses.ExpensesTableActivity"
+    tools:showIn="@layout/expenses_activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#eaeaea"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/expenses_title_row_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expenses_date" />
+
+        <TextView
+            style="@style/expenses_title_row_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expenses_description" />
+
+        <TextView
+            style="@style/expenses_title_row_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expenses_categories" />
+
+        <TextView
+            style="@style/expenses_title_row_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expenses_earnings" />
+
+        <TextView
+            style="@style/expenses_title_row_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expenses_expenses" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/expenses_circle_shape"
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/expenses_add_icon"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
